@@ -12,7 +12,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--color-secondary),
+        var(--color-primary),
         transparent
 
     );

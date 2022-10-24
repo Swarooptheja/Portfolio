@@ -61,7 +61,7 @@ function Profile(props) {
                         {" "}
                         Hire me {" "}
                     </button>
-                    <a href="#" download="thejaswaroop.pdf">
+                    <a href="https://drive.google.com/file/d/1NDlDVTUhEjf4quPFjS6bshmHNXHNkq0d/view?usp=sharing" download="thejaswaroop.pdf">
                         <button className='btn highlighted-btn'>Get Resume</button>
                     </a>
                 </div>

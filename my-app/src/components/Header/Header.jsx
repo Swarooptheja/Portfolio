@@ -8,29 +8,30 @@ function Header(props) {
     return (
        <header>
         <div className="container header_container">
-            <h1>Hello I'm</h1>
-            <h1>
+            <h2>Hello I'm</h2>
+            <h2>
                 {" "}
                 <Typical 
                 loop={Infinity}
                 steps={[
                     "Theja Swaroop",
-                    2000,
+                    3000,
                     "Full Stack Web Developer",
-                    2000,
+                    3000,
                 ]}
             />
 
-            </h1>
-            {/* <h5 className="text-light">Fullstack developer</h5> */}
-           
+            </h2>
             <Cta/>
             <Headerssocial/>
-            <div className='me'>
+            {/* <h5 className="text-light">Fullstack developer</h5> */}
+           
+            {/* <div className='me'>
                 <img src={Me} alt="" />
-            </div>
+            </div> */}
             {/* <a href="#contact" className='scroll_down'>Scrool Down</a> */}
         </div>
+       
        </header>
     );
 }

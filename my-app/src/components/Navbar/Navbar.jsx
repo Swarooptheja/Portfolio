@@ -12,22 +12,36 @@ function Navbar(props) {
         <div id='nav' >
             <div id='cont'>
                 <div id="main">
+            {/* <div> */}
 
             <a style={{textDecoration:"none"}}  href="#" className={activenav==="#" ? "active":" "}>
                 <AiOutlineHome className='navimages'/>Home
             </a>
+            {/* </div> */}
+            {/* <div> */}
+
             <a style={{textDecoration:"none"}}  href="#About" onClick={()=>setactivenav("#About")} className={activenav==="#About" ? "active":" "}>
                 <AiOutlineUser className='navimages'/>About
             </a>
+            {/* </div> */}
+            {/* <div> */}
+
             <a style={{textDecoration:"none"}}  href="#Experience" onClick={()=>setactivenav("#Experience")} className={activenav==="#Experience" ? "active":" "}>
                 <BiBook className='navimages'/>My Skills
             </a>
+            {/* </div> */}
+            {/* <div> */}
+
             <a style={{textDecoration:"none"}}  href="#portfolio" onClick={()=>setactivenav("#Portfolio")} className={activenav==="#Portfolio" ? "active":" "}>
                 <RiServiceFill className='navimages'/>Projects
             </a>
+            {/* </div> */}
+            {/* <div> */}
+
             <a style={{textDecoration:"none"}}  href="#Contact" onClick={()=>setactivenav("#Contact")} className={activenav==="#Contact" ? "active":" "}>
                 <RiMessage2Fill className='navimages'/> Contact Me
             </a>
+            {/* </div> */}
                 </div>
 
             </div>

@@ -6,8 +6,8 @@ import "./About.css"
 function About(props) {
     return (
         <section id='About'>
-            <h5>Get to Know</h5>
-            <h2>About Me!</h2>
+            {/* <h5>Get to Know</h5> */}
+            <h2 >About Me!</h2>
            <div  className='container about_container'>
             <div className="about_me">
                 <div className='about_me-image'>
@@ -38,8 +38,19 @@ function About(props) {
                     </article>
                 </div> */}
                 <h3>
-                    Hi everyone, I'm Theja Swaroop and currently I'm learning Full Stack Web Development course at Masai School.<br/>
-                    I've interested in development and passionate about learning new things at that time I got an opportunity to enroll in Masai School which is a 30-week course duration.  In Full Stack Web Development course, in which I can enhance my skills in front-end and back-end technologies.  Enthusiastic web developer with ability to learn.
+                Enthusiastic web developer with
+ability to learn and collaborate in
+rapidly changing environment worked
+through 1000+ hours of bootcamp
+structure, learning HTML, CSS,
+JavaScript, ReactJS, NodeJS, MongoDB
+and Data Structures & Algorithms.
+Passionate about implementing and
+launching new projects. Looking to start
+a career as a web developer with a
+reputed firm driven by technology.
+                   
+                    I've interested in development and passionate about learning new things at that time I got an opportunity to enroll in Masai School which is a 30-week course duration.  In Full Stack Web Development course, in which I can enhance my skills in front-end and back-end technologies. 
                     
                 </h3>
                 <a style={{textDecoration:"none"}} href="#Contact" className='btn btn-primary'>Let's Talk</a>

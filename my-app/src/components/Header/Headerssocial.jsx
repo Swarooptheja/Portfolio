@@ -3,22 +3,21 @@ import "./Header.css"
 import { FaFacebookSquare,FaLinkedin,FaGithub,FaInstagramSquare} from 'react-icons/fa';
 function Headerssocial(props) {
     return (
-        <div className='header_socials'>
-            <a href="https://facebook.com" target="_blank">
-                            <FaFacebookSquare/>
-                        </a>
-                        <a href="https://linkdin.com" target="_blank">
-                        <FaLinkedin/>
+        <>
+        {/* <h2 id='tag'>Follow Me On Social Media</h2> */}
+        <div className='header_socials' >
+                   
+                        <a  href="https://www.linkedin.com/in/theja-swaroop-10a1a9197/" target="_blank">
+                        <FaLinkedin  size={50}/>
                     
                         </a>
                         <a href="https://github.com/Swarooptheja" target="_blank">
-                            <FaGithub/>
+                            <FaGithub  size={50}/>
                         </a>
-                        <a href="https://instagram.com" target="_blank">
-                            <FaInstagramSquare/>
-                        </a>
+                      
             
         </div>
+        </>
     );
 }
 
